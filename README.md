@@ -1,26 +1,8 @@
-# alarm_reminder
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-
-
-
-Alarm Reminder App
+# Alarm-Reminder App
 
 An easy-to-use Flutter alarm app that lets you set multiple alarms, stop them, and snooze them with a single click. Perfect for reminders and daily routines.
 
-Features
+# Features
 
 Set multiple alarms at different times.
 
@@ -34,25 +16,25 @@ Notifications with sound and vibration.
 
 Displays alarms in a dynamic, scrollable list.
 
-Requirements
+# Requirements
 
 Flutter 3.0 or newer
 
 Dart 2.17 or newer
 
-iOS or Android device/emulator
+iOS device/emulator
 
 Alarm audio file (example: assets/alarm.mp3)
 
-Installation
+# Installation
 
-Clone the repository:
+# Clone the repository:
 
 git clone https://github.com/yourusername/alarm_reminder.git
 cd alarm_reminder
 
 
-Install dependencies:
+# Install dependencies:
 
 flutter pub get
 
@@ -61,7 +43,7 @@ Run the app on a simulator or device:
 
 flutter run
 
-Usage
+# Usage
 Adding an Alarm
 
 Press the + floating button.
