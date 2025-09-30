@@ -2,71 +2,77 @@
 
 An easy-to-use Flutter alarm app that lets you set multiple alarms, stop them, and snooze them with a single click. Perfect for reminders and daily routines.
 
-# Features
+## Features
 
-Set multiple alarms at different times.
+- Set multiple alarms at different times.
 
-Stop an alarm immediately.
+- Stop an alarm immediately.
 
-Snooze an alarm for 5 minutes (updates the alarm time).
+- Snooze an alarm for 5 minutes and updates time.
 
-Clear all alarms at once using the trash icon.
+- Clear all alarms at once using the trash icon.
 
-Notifications with sound and vibration.
+- Notifications with sound and vibration.
 
-Displays alarms in a dynamic, scrollable list.
+- Displays alarms in a dynamic, scrollable list.
 
-# Requirements
+## Requirements
 
-Flutter 3.0 or newer
+- Flutter 3.0 or newer
 
-Dart 2.17 or newer
+- Dart 2.17 or newer
 
-iOS device/emulator
+- iOS device/emulator
 
-Alarm audio file (example: assets/alarm.mp3)
+- Alarm audio file or any audio file
 
-# Installation
+## Installation
 
-# Clone the repository:
+ Clone the repository:
 
-git clone https://github.com/yourusername/alarm_reminder.git
+```bash
+git clone https://github.com/bmkekeh/Alarm-Reminder.git
 cd alarm_reminder
+```
 
 
-# Install dependencies:
+### Install dependencies:
 
+```bash
 flutter pub get
+```
 
+### Run the app on a simulator or device:
 
-Run the app on a simulator or device:
-
+```bash
 flutter run
+```
 
-# Usage
-Adding an Alarm
+## Usage
 
-Press the + floating button.
+- Adding an Alarm
 
-Choose the time using the time picker.
+- Press the + floating button.
 
-Confirm the alarm. A notification will appear and the alarm will be added to the list.
+- Choose the time using the time picker.
 
-Stopping an Alarm
+- Confirm the alarm. A notification will appear and the alarm will be added to the list.
 
-When an alarm rings, press Stop in the popup dialog, or tap the Stop icon next to the alarm in the list.
+- Stopping an Alarm
 
-Snoozing an Alarm
+- When an alarm rings, press Stop in the popup dialog, or tap the Stop icon next to the alarm in the list.
 
-When an alarm rings, press Snooze in the popup dialog, or tap the Snooze icon next to the alarm in the list.
+## Snoozing an Alarm
 
-The alarm time will automatically move 5 minutes forward, and the new time replaces the old alarm.
+- When an alarm rings, press Snooze in the popup dialog, or tap the Snooze icon next to the alarm in the list.
 
-Clearing All Alarms
+- The alarm time will automatically move 5 minutes forward, and the new time replaces the old alarm.
 
-Tap the trash icon in the AppBar to delete all alarms at once.
+## Clearing All Alarms
 
-How It Works (Code Overview)
+- Tap the trash icon in the AppBar to delete all alarms at once.
+
+# How It Works (Code Overview)
 
 Alarm Initialization:
 The app initializes the alarm plugin on startup using await Alarm.init().
@@ -107,17 +113,12 @@ Alarm.stopAll() stops all active alarms.
 
 Clears the _alarms list from the UI.
 
-Demo
+# Demo
 
-Set multiple alarms and see them listed in the app.
 
-Stop or snooze alarms directly from the popup or the list.
 
-Clear all alarms using the trash icon.
+# Acknowledgements
 
-Acknowledgements
+- Flutter package for managing alarms.
 
-Uses the alarm
- Flutter package for managing alarms.
-
-Built with Flutter and Material Design components.
+- Built with Flutter and Material Design components.
