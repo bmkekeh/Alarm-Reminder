@@ -114,7 +114,8 @@ Alarm.stopAll() stops all active alarms.
 Clears the _alarms list from the UI.
 
 # Demo
-
+Here is a Demo of running the code
+https://github.com/user-attachments/assets/c4273e0a-89b3-4cb4-9bc4-098c5969cd3d
 
 
 # Acknowledgements
