@@ -72,49 +72,10 @@ flutter run
 
 - Tap the trash icon in the AppBar to delete all alarms at once.
 
-# How It Works (Code Overview)
-
-Alarm Initialization:
-The app initializes the alarm plugin on startup using await Alarm.init().
-
-Adding Alarms:
-
-_pickTime() shows a time picker and converts the selected time to DateTime.
-
-Creates an AlarmSettings object and schedules it using Alarm.set().
-
-Updates the _alarms list to display in the UI.
-
-Alarm Ring Listener:
-
-Listens to Alarm.ringStream.stream.
-
-Shows a popup dialog with Stop and Snooze options when the alarm rings.
-
-Stop Alarm:
-
-Alarm.stop(alarm.id) stops the ringing sound.
-
-Removes the alarm from the list.
-
-Snooze Alarm:
-
-Adds 5 minutes to the alarm time.
-
-Stops the current alarm using Alarm.stop().
-
-Reschedules the new snoozed alarm using Alarm.set().
-
-Replaces the old alarm in the list with the new time.
-
-Clear All:
-
-Alarm.stopAll() stops all active alarms.
-
-Clears the _alarms list from the UI.
 
 # Demo
 Here is a Demo of running the code
+
 https://github.com/user-attachments/assets/c4273e0a-89b3-4cb4-9bc4-098c5969cd3d
 
 
